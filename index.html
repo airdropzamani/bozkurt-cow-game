@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bozkurt Cow Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="startScreen">
+        <h1>Welcome to Bozkurt Cow Game!</h1>
+        <p>
+            🥛 Collect milk drops to earn points.<br>
+            🍼 Every 10 drops → a milk bottle appears!<br>
+            ⏳ You have 3 seconds to grab it for 10x points.<br>
+            🎯 Choose your difficulty and start playing!
+        </p>
+        <label for="difficulty">Difficulty:</label>
+        <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+        <button id="startButton">Start Game</button>
+    </div>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <div id="scoreBoard">Score: 0</div>
+    <script src="script.js"></script>
+</body>
+</html>
