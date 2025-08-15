@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #eef;
+    font-family: Arial, sans-serif;
+}
+
+#gameCanvas {
+    background: url('background.png') repeat;
+    display: none;
+    border: 3px solid #333;
+}
+
+#startScreen {
+    margin-top: 50px;
+}
+
+#scoreBoard {
+    display: none;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
